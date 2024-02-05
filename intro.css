@@ -1,0 +1,25 @@
+h1 {
+    color: rgb(226, 22, 70);
+    font-size: 3em;
+    margin: 10px 0;
+    border: 2px solid black;
+    border-radius: 20%;
+    padding: 20px;
+}
+
+* {
+    color: black;
+    /* background-color: olive; */
+    margin: 0 auto;
+}
+
+div {
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__340.jpg');
+    /* background-size: cover; */
+    background-position: center;
+
+    /* This is where I ran into the issue with the image repeating. When I copied it, the value was set to 'none.' It actually needs 'no-repeat' if you don't want the image to repeat. */
+    /* background-repeat:no-repeat; */
+  }
